@@ -1,0 +1,48 @@
+.receitas-container {
+  padding: 20px;
+  background-color: #f9f4d7;
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
+
+.receita {
+  padding: 0;
+  border: none;
+  max-width: none;
+  display: block;
+  box-sizing: border-box;
+}
+
+
+.receita h2 {
+  margin-top: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.receita img {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+
+.receita ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+
+.receita p {
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  flex-grow: 1;
+}
